@@ -1,5 +1,6 @@
 {
   "projects": [
+    "../client",
     "Microsoft.Azure.KeyVault",
     "Microsoft.Azure.KeyVault.Core",
     "Microsoft.Azure.KeyVault.Cryptography",
