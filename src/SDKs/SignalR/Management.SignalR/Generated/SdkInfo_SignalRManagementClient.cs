@@ -19,11 +19,22 @@ namespace Microsoft.Azure.Management.SignalR
           {
               return new Tuple<string, string, string>[]
               {
-                new Tuple<string, string, string>("SignalRService", "Operations", "2018-03-01-preview"),
-                new Tuple<string, string, string>("SignalRService", "SignalR", "2018-03-01-preview"),
-                new Tuple<string, string, string>("SignalRService", "Usages", "2018-03-01-preview"),
+                new Tuple<string, string, string>("SignalRService", "Operations", "2018-10-01"),
+                new Tuple<string, string, string>("SignalRService", "SignalR", "2018-10-01"),
+                new Tuple<string, string, string>("SignalRService", "Usages", "2018-10-01"),
               }.AsEnumerable();
           }
       }
+      // BEGIN: Code Generation Metadata Section
+      public static readonly String AutoRestVersion = "latest";
+      public static readonly String AutoRestBootStrapperVersion = "autorest@2.0.4283";
+      public static readonly String AutoRestCmdExecuted = "cmd.exe /c autorest.cmd https://github.com/Azure/azure-rest-api-specs/blob/master/specification/signalr/resource-manager/readme.md --csharp --version=latest --reflect-api-versions --csharp-sdks-folder=F:\\forks\\azure\\azure-sdk-for-net\\src\\SDKs";
+      public static readonly String GithubForkName = "Azure";
+      public static readonly String GithubBranchName = "master";
+      public static readonly String GithubCommidId = "223f0cb75e64e0e61a67b8a2d95c15c4d537c6e9";
+      public static readonly String CodeGenerationErrors = "";
+      public static readonly String GithubRepoName = "azure-rest-api-specs";
+      // END: Code Generation Metadata Section
   }
 }
+
